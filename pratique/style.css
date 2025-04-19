@@ -1,0 +1,89 @@
+/*feuille style*/
+.bloc{
+     position:relative;
+     background-color:gray;
+     color:white;
+     margin-buttom:1px; 
+     padding:10px;
+     font-size:14px;
+     margin:10px;
+     boder:1px solid black; 
+     bottom:-30Px;
+     opacity:0.7;
+    text-align:center;}
+.bare{
+    display:flex; flex:row;
+}
+
+.bloc:hover{
+    background-color:orange;cursor:pointer;
+}
+
+.img-dessous{
+    width:100%;margin-rigth:2px;margin-left:2px;
+    float:left;
+    margin:20px auto 0 auto 0 ;background-image:url(03.jpg);
+}
+
+.sect{
+    background-color:gray;
+    float:rigth; 
+    width:50%; heigth:40%;
+    boder:1px solid black; margin:10px; padding:5px;
+}
+
+.inverse{ 
+    display:flex;flew:row;
+    justify-content:space-between;
+}
+
+.boutton{
+    background-color:orange; heigth:35px; width:200px;
+    boder:1px solid white; 
+    color:white; text-align:center;
+    boder-raduis:5px;
+    box-shadow:1px 1px 1px white;
+}
+
+.com{
+   width:350px; heigth:60px; 
+   boder:1px solid black;
+   boder-top:1px solid black;
+   boder-left:1px solid black; 
+   padding:10px; margin:20px;
+   box-shadow:3px 3px 3px gray;
+   boder-raduis:5px;
+   box-shadow-top:2px 2PX 0px silver;
+}
+
+.bric{
+   display:flex;flex-wrap:wrap;
+}
+
+.bout{
+   height: 30px;padding:8px 8px 8px;   
+   background-color:orange; width:200px;
+   border: 1px solid gray; 
+   border-radius: 5px;  
+   text-align: center;
+   color: white;margin:auto; 
+}
+
+.pied{
+    heigth:350px; width:100%; 
+    background-color:gray;
+    text-align:center;
+    color:white;
+}
+
+#left{
+	float: left; margin-left:20px;
+}
+
+.suggestion{
+     float:left; width:40%;;}
+	
+#mot{
+float:rigth; line-heigth:30px;justify-content:space between;
+margin-rigth:50px;
+margin-top:80px;}
